@@ -1,7 +1,7 @@
 # Provision a web server instance using the latest Ubuntu 16.04 on a
 # t2.micro node with an AWS Tag naming it "web-server"
 provider "aws" {
-    region = "us-east-2"
+    region = "ap-south-1"
 }
 
 # Get the AWS Ubuntu image
